@@ -1,0 +1,44 @@
+/*  */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@200;400&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    min-width: 150px;
+    padding: 10px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    border: 1px solid #9fdb0e;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+
+.hero-container {
+    min-height: 450px;
+    background: #000;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    min-height: 100px!important;
+}
