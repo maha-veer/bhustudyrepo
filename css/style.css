@@ -33,12 +33,29 @@ a {
 }
 
 .center {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+.chapter {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: self-start;
 }
 
 .navigation {
     min-height: 100px!important;
+}
+
+
+/* overwriting center class */
+
+.center {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
